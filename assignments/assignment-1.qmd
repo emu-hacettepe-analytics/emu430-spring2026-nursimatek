@@ -2,6 +2,8 @@
 title: "Assignment 1"
 ---
 
+# 
+
 # Assignment 1
 
 ```{r}
@@ -10,6 +12,68 @@ title: "Assignment 1"
 
 My first assignment has two parts.
 
-## (a)
+## (a) Video Summary and Questions
 
-## (b)
+### Video Summary
+
+In this video, Cem Vardar discusses the relationship between industrial engineering and data science by sharing insights from his professional experience. He talks about his career in the United States and his work at companies such as Intel and Carvana, explaining how data analytics helps solve complex business problems.
+
+Vardar emphasizes the importance of developing technical skills such as SQL, programming, and problem solving. He also highlights the growing role of data-driven decision making in modern businesses. In addition, he advises students to stay curious, understand their own interests, and combine technical knowledge with analytical thinking when planning their careers.
+
+Overall, the discussion shows how traditional industrial engineering practices are evolving together with modern data science and technology.
+
+### Open-ended Question
+
+Why are technical skills such as SQL, programming, and data analysis important for industrial engineers in modern companies?
+
+**Answer:**
+
+Technical skills like SQL, programming, and data analysis allow industrial engineers to work with large datasets and extract meaningful insights. These skills help engineers analyze business processes, identify inefficiencies, and support data-driven decision making in organizations.
+
+### Multiple Choice Question
+
+Which of the following statements about "complex systems," a focus of industrial engineering, is correct?
+
+A)  All parts of the system work completely independently.\
+B)  Complex systems consist only of mechanical and physical components.\
+C)  The whole system exhibits behaviors that are different and emergent from the sum of its parts.\
+D)  The behavior of these systems is always linear and perfectly predictable.
+
+**Correct Answer:** C
+
+------------------------------------------------------------------------
+
+## (b) R Code Exercise
+
+```{r}
+library(dslabs)
+
+data("polls_us_election_2016")
+
+my_first <- "Nursima"
+my_birth_year <- 2002
+
+k <- (nchar(my_first) + my_birth_year) %% 15 + 8
+k
+```
+
+### Show rows depending on k
+
+```{r}
+if(k %% 2 == 0){
+  head(polls_us_election_2016, k)
+} else {
+  tail(polls_us_election_2016, k)
+}
+```
+
+### Count missing values
+
+```{r}
+sum(is.na(polls_us_election_2016))
+```
+
+*Parts of this assignment were assisted by AI as a guide.\
+Specifically, AI was used to:\
+1. Translate text from Turkish to English.\
+2. Provide step-by-step guidance for using RStudio, Quarto, and GitHub to complete the assignment.*

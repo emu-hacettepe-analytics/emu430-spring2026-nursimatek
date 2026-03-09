@@ -5,26 +5,40 @@ sidebar: false
 
 # Education
 
--   B.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
+-   B.S., Industrial Engineering, Hacettepe University, Turkey, 2022 - ongoing.
 
 # Work Experience
 
 ## Employements
 
-1.  Firm xxx, position xx, year xxx
+-   TUSAŞ, Candidate Engineer (ERP), 2025 – Ongoing
 
-2.  Firm yyy, position yyy, year yyy
+<!-- -->
+
+-   Goaltech, R&D and Business Development Intern, 2025
 
 ## Internships
 
-1.  Firm aaa, position xx, year xxx
+-   Turkcell, Supply Chain Procurement Intern, 2025
 
-2.  Firm bbb, position yyy, year yyy
+<!-- -->
+
+-   Staj-Up, Intern, 2023
 
 # Projects
 
+-   TUBITAK High School Research Projects – “Lattice Point Count of Triangles and Parallelograms”, Regional Competition 2nd Place (2020)
+
 # Competencies
 
-R, Quarto, Git, Python
+R, Quarto, Git, Python, SQL, Power BI, Excel
 
 # Hobbies
+
+Reading, AI/ML projects, Data visualization,
+
+# CV
+
+You can download my cv.
+
+[Download My CV](nursimatek_cv.pdf)
